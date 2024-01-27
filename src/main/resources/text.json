@@ -1,0 +1,34 @@
+{"insured": {
+  "isRequired": true,
+  "title": "Застрахованный",
+  "description": "Застрахованный – лицо, в отношении которого осуществляется страхование.",
+  "gender": {
+    "isRequired": true,
+    "values": [
+      "male",
+      "female"
+    ]
+  },
+  "birthDate": {
+    "isRequired": true,
+    "minValue": "1958-11-13T00:00:00Z",
+    "maxValue": "2005-11-13T00:00:00Z",
+    "contractEndAgeThreshold": 70
+  }
+},
+  "beneficiary": {
+    "isRequired": false,
+    "title": "Выгодоприобретатель",
+    "description": "Выгодоприобретатель – лицо, которое в соответствии с условиями договора страхования является получателем страховой выплаты."
+  },
+  "bonuses": [
+    {
+      "source": "homebank",
+      "percentage": "10"
+    },
+    {
+      "source": "altynbank",
+      "percentage": "4.8"
+    }
+  ]
+}
